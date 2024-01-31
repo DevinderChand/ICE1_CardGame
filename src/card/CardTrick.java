@@ -27,6 +27,14 @@ public class CardTrick {
         // and search magicHand here
         //Then report the result here
         // add one luckcard hard code 2,clubs
+        
+        // add one lucky card hard-coded (2 of clubs)
+        Card luckyCard = new Card();
+        luckyCard.setValue(2);
+        luckyCard.setSuit("Clubs");
+
+        // Display the lucky card
+        System.out.println("Lucky Card: " + luckyCard.getSuit() + " " + luckyCard.getValue());
     }
     
 }
